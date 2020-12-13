@@ -1,0 +1,365 @@
+
+
+html, body {
+    height: 100%;
+    
+}
+
+.bg {
+    background-image: url(../images/madison_headshot_blue2.png);
+    height: 100vh;
+    width: 100vw;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: right;
+}
+
+.customNav {
+    width: 100%;
+    background: none !important;
+    background-color: white!important;
+    background-size: cover;
+    z-index: 10;
+  }
+
+  .navbar {
+      position: fixed;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 175px;
+  }
+  
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  .nav-link:hover {
+      color: #ED1E31 !important;
+  }
+  
+  .dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    border: none !important;
+    
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #ED1E31;
+    text-decoration: none;
+  }
+  
+  .customNav a {
+    color: #373738 !important;
+    font-family: 'Inconsolata';
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+  
+  .navCTA {
+    font-size: 15px;
+  }
+
+.topDog {
+  height: 100vh;  
+  width: 100vw;
+    padding-top: 200px !important;
+    margin-right: 0 !important;
+}
+
+.topDogimg {
+    width: auto;
+}
+
+.mads {
+  justify-content: flex-end !important;  
+  padding-right: 0 !important;
+    text-align: right !important;
+    z-index: 50;
+}
+  .jumbotron {
+    background-color: rgba(0, 0, 0, 0) !important;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .jumboCopy {
+    width: 100%;
+    min-width: 500px;
+    max-width: 1200px;
+    color: #373738;
+    margin-left: 0;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+.display-4 {
+    font-size: 20vw !important;
+    font-weight: 700 !important;
+    line-height: 0.7em !important;
+    text-align: left;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+    .display-4 {
+        font-size: 8rem !important;
+    }
+}
+
+.display-5 {
+    font-size: 90px !important;
+    font-weight: 700 !important;
+    line-height: 0.7em !important;
+    text-align: left;
+    padding-bottom: 1%;
+}
+
+.subTitle {
+    font-size: 48px !important;
+    font-weight: 100 !important;
+    text-transform: uppercase;
+    color: #5D5B5B;
+    letter-spacing: 5px;
+}
+
+.lead {
+    font-family: 'Inconsolata';
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+.fas {
+    padding-right: 1%;
+}
+
+.contenedor {
+    height: 100%;
+    padding: 5% 0;
+  }
+  
+  
+  .container_foto {
+    background-color: #373738;
+    padding: 0;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 5px;
+  }
+  
+  .container_foto article {
+    padding: 10%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  .container_foto h2 {
+    color: #fff;
+    font-family: 'Inconsolata';
+    font-weight: 800;
+    font-size: 36px;
+  }
+  
+  .container_foto h4 {
+    font-family: 'Inconsolata';
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .container_foto img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all 4s ease;
+    -moz-transition: all 4s ease;
+    -o-transition: all 4s ease;
+    -ms-transition: all 4s ease;
+    transition: all 4s ease;
+  }
+  
+  
+  
+  
+  /*hovers*/
+  
+  .container_foto:hover {
+    cursor: pointer;
+  }
+  
+  .container_foto:hover img {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+  
+  .container_foto:hover article {
+    transform: translate(2px, -69px);
+    -webkit-transform: translate(2px, -69px);
+    -moz-transform: translate(2px, -69px);
+    -o-transform: translate(2px, -69px);
+    -ms-transform: translate(2px, -69px);
+  }
+
+
+h1 {
+    font-family: 'Inconsolata';
+    font-size: 96px;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: top;
+    line-height: 90px;
+    margin-bottom: 1px;
+    color: #373738;
+}
+
+h3 {
+    font-family: 'Inconsolata';
+    font-size: 36px;
+    font-weight: 500;
+    color: #373738;
+    vertical-align: top;
+    margin-top: 0%;
+}
+
+#mySkills {
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.flexItem1 {
+    width: 300px;
+    height: 700px;
+    padding: 20px;
+    margin-top: 5vh;
+    align-items: flex-start;
+    font-family: Inconsolata;
+}
+.flexItem1 p {
+    height: 100px;
+}
+
+.flexItem1 img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexItem1 h3 {
+    font-weight: 500;
+}
+
+.workGrid {
+    display: grid;
+    min-height: 300px;
+    object-fit: contain;
+    object-position: center;
+    margin: 4vh auto;
+    width: 40%;
+    font-family: Inconsolata;
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas: 
+    "workImage1 workInfo1"
+    "workImage2 workInfo2"
+    ;
+}
+
+#workImage1 {
+    grid-area: workImage1;
+}
+
+#workImage1 img {
+    width: 300px;
+    padding-bottom: 20px;
+    margin-bottom: 2vh;
+}
+
+#workInfo1 {
+    grid-area: workInfo1;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#workImage2 {
+    grid-area: workImage2;
+}
+
+#workImage2 img {
+    width: 300px;
+}
+
+#workInfo2 {
+    grid-area: workInfo2;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.myWork h1 {
+    text-align: center;
+}
+
+.myWork h4 {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.myWork h3 {
+    text-align: center;
+    text-decoration: underline solid 4px;
+    font-size: 24px;
+    font-weight: 500;
+}
+button {
+    background-color: #373738;
+    font-family: Inconsolata;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding: .5em 2em;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 2vh;
+}
+@media only screen and (max-width: 600px) {
+    .flexItem1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .workGrid {
+        grid-template-rows: 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "workImage1"
+        "workInfo1"
+        "workImage2"
+        "workInfo2";
+    }
+}
